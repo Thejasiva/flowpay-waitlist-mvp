@@ -19,7 +19,11 @@ SECRET_KEY = 'django-insecure-wa)=p#%96%cdh_22&z(qnl=7^wd2n5u5h3(gmesmb=&&zcsahb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "flowpay-waitlist-mvp.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
